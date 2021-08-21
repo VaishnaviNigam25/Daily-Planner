@@ -1,0 +1,73 @@
+
+
+
+body{
+    background:radial-gradient(#A7F3D0,#111827 );
+}
+.pic
+{
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    
+}
+#left-down-pic{
+    top: 1vh;
+}
+#right-down-pic{
+    right: 1vw;
+    bottom:1vh;
+}
+.container{
+    margin: auto;
+    width: 60%;
+    border: 5px groove #111827;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: 
+    #A7F3D0;
+    color: #111827;
+}
+.row{
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+    font-size: 4rem;
+    padding: 10px;
+    margin: 2px;
+}
+input[type="text"],input[type="button"]{
+    width: 70%;
+    height: auto;
+    font-size:1rem;
+    
+    margin:4px 1px;
+    padding: 10px;
+    color: white;
+    background-color: #111827;
+    border: 4px double #111827;
+    border-radius: 20px;
+}
+input[type="button"]
+{
+    width: 10%;  
+    cursor: pointer;
+}
+ul{
+    font-size: xx-large;
+    margin: 5px;
+}
+ li{
+     cursor: pointer;
+     width: 90%;
+     margin:2px 15px;
+    text-align: center;
+    border: 4px solid #111827;
+ }
+ li:nth-child(even)
+ {
+     background-color: #111827;
+     color: #A7F3D0;
+     
+ }

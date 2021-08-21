@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap');
+        html *
+        {
+            font-family: 'El Messiri', sans-serif;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Daily Planner</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="row">Lets Plan Your Day</h1>
+        <div class="input row" >
+            <input type="text" id="text" placeholder="Enter something to add...">
+            <input type="button" value="ADD" onclick="add_items()">
+        </div>
+        <div class="output row">
+            <ul   type="none" id="list">
+             <p id="initial">Yayyy...Nothing on your To-Do-List !!</p> 
+            </ul>
+        </div>
+        
+    </div>
+    <img  id="right-down-pic" class="pic" src="pic2.svg" alt="">
+    <img id="left-down-pic" class="pic" src="PIC.svg" alt="">
+    <script src="app.js"></script>
+</body>
+
+</html>
